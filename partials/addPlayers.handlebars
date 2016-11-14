@@ -1,0 +1,16 @@
+<div class="split50">
+Colors : {{colors.length}}
+<div id="available">
+{{#each colors}}
+	<div id="{{this}}" class="player"></div>
+{{/each}}
+</div>
+</div>
+<div class="split50">
+Players : {{players.length}}
+<div id="selected">
+{{#each players}}
+	<div id="{{color}}" class="player">{{score}}</div>
+{{/each}}
+</div>
+</div>
